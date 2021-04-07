@@ -1,7 +1,6 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import { Home } from '@material-ui/icons';
-import { Search} from '../index'
+import {Home, Search} from '../index'
 const AppRouter = () => {
     return (
         <Switch>
