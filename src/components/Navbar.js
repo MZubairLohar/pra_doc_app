@@ -14,13 +14,13 @@ const Navbar = () => {
             <div className='nav_right'>
             <Link to='/' >
                 <div className='icon_one'>
-                    {HomeIcon }
+                    <HomeIcon />
                 </div>
             </Link>
             
             <Link to='/search' >
                 <div className='icon_two'>
-                    {ImageSearchIcon} 
+                    <ImageSearchIcon />
                 </div>
             </Link>    
             </div>
