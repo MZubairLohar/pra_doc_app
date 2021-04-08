@@ -1,4 +1,36 @@
 .home{
-    margin-top: 50%;
+    margin-top: 10%;
     text-align: center;
+    align-items: center;
+    
+}
+.form{
+    flex-direction: column;
+}
+
+.fm_ct{
+    flex-direction: column;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+.fm_ct > input{
+    width: 30%;
+    height: 50px;
+} 
+.int_fl{
+    /* display: none; */
+}
+.sbmt_bt{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: fill;
+}
+.sbmt_bt:focus{
+    border: none;
+    outline: none;
+
 }
